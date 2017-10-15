@@ -1,0 +1,154 @@
+body {
+	margin: 0 auto;
+}
+.ba-header-wrap {
+	background: url('img/bg1.jpg') no-repeat;
+
+}
+.container1 {
+	 width: 1300px;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+}
+.ba-header-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+.ba-header__menu {
+	list-style: none;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+.ba-header__menu-item {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	display: inline-block;	
+}
+
+.menu a {
+	text-decoration:none;
+	color:rgb(255,255,255);
+	margin-right: 20px;
+}
+.menu button {
+	background-color: transparent;
+	color: rgb(255,255,255);
+	border-radius: 20px;
+	border: 2px solid white;
+	outline: none;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+.menu button:hover{
+	background-color: rgba(255,255,255,.5);
+	cursor: pointer;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+
+.block1 {
+	width:45%;
+	margin: 20px 20px 20px 50px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 16%;
+	
+}
+.block1_top {
+	text-transform: uppercase;
+}
+.block1_top p{
+	color:rgba(255,255,255,.5);
+	font-size: 16px;
+	margin-bottom: 0;
+
+}
+.block1_top h1{
+	font-size: 70px;
+	color:rgb(255,255,255);
+	font-weight: 400;
+	margin-top: 0;
+}
+.block1_middle p {
+	color:rgba(255,255,255,.8);
+	line-height: 27px;
+	font-size: 16px;
+	 padding-bottom: 30px;
+}
+.btn1{
+	background-color: transparent;
+	width:170px;
+	height: 55px;
+	outline: none;
+	border-radius: 30px;
+    border:1px solid white;
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+    text-transform: uppercase;
+}
+.btn2{
+	background-color: transparent;
+	width:220px;
+	height: 55px;
+	outline: none;
+	border-radius: 30px;
+    border:1px solid white;
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+    text-transform: uppercase;
+
+}
+.block1_btn {
+	margin-top: 50px;
+}
+.block1_btn button:hover{
+	background-color: rgb(255,255,255);
+	color: rgba(95,32,130,.7);
+
+}
+.end {
+	background: url('img/bg2.png') no-repeat;
+	display: flex;
+	flex-direction: column;
+	height:543px;
+	text-align: -webkit-center;
+}
+.end_title h1{
+	font-size: 36px;
+	 font-family:"Myriad Pro", sans-serif;
+	 text-transform: uppercase;
+	 font-weight: 200;
+	 color: rgb(255,255,255);
+	     margin: 30px;
+}
+.end_socials button{
+	background-color: transparent;
+	border-radius: 50%;
+	border: 1px solid white;
+	outline: none;
+
+}
+.end_socials i{
+color:rgba(255,255,255,.5);
+
+}
+.end_socials i:hover {
+	
+	color: rgb(255,255,255);
+}
+.end_menu a {
+	text-decoration:none;
+	color:rgb(255,255,255);
+	margin-right: 20px;
+}
+.end_menu a:hover {
+	text-decoration: underline;
+}
